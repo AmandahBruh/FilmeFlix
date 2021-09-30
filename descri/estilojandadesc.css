@@ -31,10 +31,9 @@
   }
   
   main {
-    background: url() no-repeat center center;
+    background: url("MicrosoftTeams-image\ \(1\).png") no-repeat center center;
     background-size: cover;
     height: 92vh;
-    background-color: #2e2e2e;
   }
   
   .nav-list {
