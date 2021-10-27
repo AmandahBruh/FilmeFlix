@@ -131,3 +131,42 @@
    text-align: center;
    font-size: 45px;
  }
+ .column {
+  float: left;
+  width: 25%;
+  color: #FFF;
+  font-size: 29px;
+  text-align:center;
+  padding-left: 150px;
+  font-family: fantasy;
+  padding-top: 25px;
+
+}
+ 
+.columns:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.column2 {
+  float: left;
+  width: 25%;
+  color: #FFF;
+  font-size: 29px;
+  text-align:right;
+  padding-left: 300px;
+  font-family: fantasy;
+  padding-top: 25px;
+
+}
+.column3 {
+  float: left;
+  width: 25%;
+  color: #FFF;
+  font-size: 29px;
+  text-align:left;
+  padding-left: 90px;
+  font-family: fantasy;
+  padding-top: 25px;
+
+}
