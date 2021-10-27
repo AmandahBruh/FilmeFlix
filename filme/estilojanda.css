@@ -120,10 +120,14 @@
  }
  .sorte{
    font-size: 60px;
-   text-align: center;
-   padding-left: 170px;
-   padding-top: 20px;
+   padding-left: 10px;
+   padding-top: 10px;
  }
  .letra{
    color: transparent;
+ }
+ .letra1{
+   color: antiquewhite;
+   text-align: center;
+   font-size: 45px;
  }
