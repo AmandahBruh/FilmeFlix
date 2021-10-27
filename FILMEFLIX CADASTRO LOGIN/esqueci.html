@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Form de Registro com validações em JS</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    
+  </header>
+  <div id="main-container">
+    <h1>Esqueci a senha</h1>
+    <form id="register-form" action="">
+      <h6 class="leltras">Se você tiver esquecido sua senha, poderá inserir seu e-mail, e nós enviaremos instruções de como redefini-la.</h6>
+
+      <div class="full-box">
+        <label for="email">E-mail</label>
+        <input type="email" name="email" id="email" placeholder="Digite seu e-mail" data-min-length="2" data-email-validate>
+      <div class="full-box">
+        <input id="btn-submit" type="submit" value="Solicitar redefinição de senha">
+      </div>
+      <div>
+        <label for="agreement" id="agreement-label">Tem uma conta? <a href="/FILMEFLIX CADASTRO LOGIN/">Entrar</a></label>
+      </div>
+      <div>
+        <label for="agreement" id="agreement-label">Voltar ao inicio <a href="/index.html">Entrar</a></label>
+      </div>
+    </form>
+  </div>
+  <p class="error-validation template"></p>
+  <script src="js/scripts.js"></script>
+</body>
+</html>

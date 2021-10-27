@@ -131,3 +131,34 @@ body{
     padding-top: 100px;
     color: antiquewhite;
   }
+  .letra12{
+    color: antiquewhite;
+    padding-top: 4px;
+  }
+  .column {
+    float: left;
+    width: 25%;
+    color: #FFF;
+    font-size: 29px;
+    text-align: justify;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-right: 20px;
+  }
+   
+  .columns:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .column1 {
+    float: left;
+    width: 25%;
+    color: #862121;
+    font-size: 29px;
+    text-align:center;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-right: 20px;
+    font-family: fantasy;
+  }
