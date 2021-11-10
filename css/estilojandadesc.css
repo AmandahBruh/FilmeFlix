@@ -34,7 +34,7 @@ body{
   }
   
   main {
-    background: url(/descri/fundo.png) no-repeat center center;
+    background-color: #141414;
     background-size: cover;
     height: 92vh;
   }

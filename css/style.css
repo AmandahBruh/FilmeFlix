@@ -30,8 +30,9 @@ nav {
 }
 
 main {
-  background: url("imgs/MicrosoftTeams-image.png") no-repeat center center;
+  background: url("/imgs/MicrosoftTeams-image.png") no-repeat center center;
   background-size: cover;
+  background-color: #141414;
   height: 92vh;
 }
 
