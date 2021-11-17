@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Form de Registro com validações em JS</title>
+  <link rel="stylesheet" href="css/Estylosoh.css">
+</head>
+<body>
+  <div id="main-container">
+    <h1>Cadastre-se para acessar o sistema</h1>
+    <form id="register-form" action="">
+      <div class="full-box">
+        <label for="titulo">Título</label>
+        <input type="titulo" name="email" id="titulo" placeholder="Digite o título do filme" data-min-length="2" data-email-validate>
+      </div>
+      <div class="half-box spacing">
+          <label for="name">Elenco principal</label>
+          <input type="text" name="name" id="name" placeholder="Digite o nome do elenco principal" data-required data-min-length="1" data-max-length="240">
+      </div>
+      <div class="half-box">
+          <label for="lastname">Sinopse</label>
+          <input type="text" name="lastname" id="lastname" placeholder="Digite a sinopse do filme" data-required data-only-letters data-required data-min-length="1" data-max-length="240">
+      </div>
+      <div class="half-box spacing">
+        <label for="lastname">Produtora do filme</label>
+        <input type="password" name="password" id="password" placeholder="Digite o nome da produtora do filme" data-required data-only-letters data-required data-min-length="1" data-max-length="240">
+      </div>
+      <div class="half-box">
+        <label for="passconfirmation">duração</label>
+        <input type="password" name="passconfirmation" id="passwordconfirmation" placeholder="duração" data-required data-only-letters data-required data-min-length="1" data-max-length="240">
+      </div>
+
+      <div class="full-box">
+        <h1 style="color: #4b4b4b;">Marcar como destaque</h1>
+        <label class="container">
+            <input type="checkbox" checked="checked">
+            <span class="checkmark"></span>
+        </label>
+        </div>
+        
+      <div class="half-box">
+        <input id="btn-submit" type="submit" value="Salvar" style="background-color: rgb(62, 104, 21);">
+      </div>
+      <div style="color: transparent;">AA</div>
+      <div class="half-box">
+        <input id="btn-submit" type="submit" value="Cancelar" style="background-color: rgb(92, 92, 92);">
+      </div>
+      <div>
+        <label for="agreement" id="agreement-label">Voltar ao <a href="index.html">Inicio</a></label>
+      </div>
+    </form>
+  </div>
+  <p class="error-validation template"></p>
+  <script src="js/scripts.js"></script>
+</body>
+</html>
