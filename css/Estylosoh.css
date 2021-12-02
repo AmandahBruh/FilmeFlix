@@ -13,8 +13,8 @@
   font-family: Helvetica, sans-serif;
 }
 
-input, label {
-  display: block;
+.yes{
+  display: flex;
   outline: none;
   width: 100%;
 }

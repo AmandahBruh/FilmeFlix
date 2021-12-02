@@ -12,17 +12,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Janda</title>
-    <link rel="stylesheet" href="css/estilojanda.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200&display=swap" rel="stylesheet">
-    
+    <link rel="stylesheet" href="css/posturado.css" />
   </head>
 
-  <body>
+  <body style="background-color: #505050;">
+    <script></script>
     <header>
       <nav>
+        
         <a class="logo" href="../index.html">filmeFlix</a>
         <div class="mobile-menu">
           <div class="line1"></div>
@@ -31,40 +28,117 @@
         </div>
         <ul class="nav-list">
           
-          <button type="button" class="btn btn-dark"> <li><a href="indexjanda.html">FILMES</a></li></button>
-          <button type="button" class="btn btn-dark"><li><a href="indexjandadesc.html">DESCRIÇÃO</a></li></button>
+          <button type="button" class="btn btn-dark"> <li><a href="indexjanda.html">Filmes</a></li></button>
+          <button type="button" class="btn btn-dark"><li><a href="indexjandadesc.html">Descrição</a></li></button>
           <button type="button" class="btn btn-dark"><li><a href="login.html">Login</a></li></button>
-          <button type="button" class="btn btn-dark"><li><a href="Cadastro.html">Cadastro</a></li></button>
+          <button type="button" class="btn btn-dark"><li><a href="CadastroFilme.html">Cadastrar Filme</a></li></button>
         </ul>
       </nav>
     </header>
-    <main>
-      <div class="columns">
-        <div class="column">
-          Shang-chi
-        </div>
-        <div class="column2">
-          Venom
-        </div>
-        <div class="column">
-        </div>
-        <div class="column3">
-          Free Guy
-        </div>
-        </div>
+    <main class="container">
+        <th><button class="button1 button1">Excluir</button></th>
+        <br>
+        <table class="tabela">
+            <thead>
+                <tr>
+                    <th>Filme</th>
+                    <th>Cod</th>
+                    <th>Destaque</th>
+                    <th></th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Alerta Vermelho</td>
+                    <td>#001</td>
+                    <td></td>
+                    <th><button class="button button2">Editar</button></th>
+                    <th><button class="button button1">Excluir</button></th>
+                </tr>
+                <tr>
+                    <td>Venom</td>
+                    <td>#002</td>
+                    <td></td>
+                    <th><button class="button button2">Editar</button></th>
+                    <th><button class="button button1">Excluir</button></th>
+                </tr>
+                <tr>
+                    <td>Shang-chi</td>
+                    <td>#003</td>
+                    <td></td>
+                    <th><button class="button button2">Editar</button></th>
+                    <th><button class="button button1">Excluir</button></th>
+                </tr>
+                <tr>
+                    <td>Free Guy</td>
+                    <td>#004</td>
+                    <td></td>
+                    <th><button class="button button2">Editar</button></th>
+                    <th><button class="button button1">Excluir</button></th>
+                </tr>
+                <tr>
+                    <td>Refém do Jogo</td>
+                    <td>#005</td>
+                    <td></td>
+                    <th><button class="button button2">Editar</button></th>
+                    <th><button class="button button1">Excluir</button></th>
+                </tr>
+                <tr>
+                    <td>A Batalha Esquecida</td>
+                    <td>#006</td>
+                    <td></td>
+                    <th><button class="button button2">Editar</button></th>
+                    <th><button class="button button1">Excluir</button></th>
+                </tr>
+                <tr>
+                    <td>Exército de Ladrões: Invasão da Europa</td>
+                    <td>#007</td>
+                    <td></td>
+                    <th><button class="button button2">Editar</button></th>
+                    <th><button class="button button1">Excluir</button></th>
+                </tr>
+                <tr>
+                    <td> Dano Colateral</td>
+                    <td>#008</td>
+                    <td></td>
+                    <th><button class="button button2">Editar</button></th>
+                    <th><button class="button button1">Excluir</button></th>
+                </tr>
+                <tr>
+                    <td>Vingança & Castigo</td>
+                    <td>#009</td>
+                    <td></td>
+                    <th><button class="button button2">Editar</button></th>
+                    <th><button class="button button1">Excluir</button></th>
+                </tr>
+                <tr>
+                    <td>Kate</td>
+                    <td>#010</td>
+                    <td></td>
+                    <th><button class="button button2">Editar</button></th>
+                    <th><button class="button button1">Excluir</button></th>
+                </tr>
+            </tbody>
+            <tfoot>
+                
+            </tfoot>
+        </table>
       
-    </main>
+  </main>
     <script src="mobile-navbar.js"></script>
+    <script src="js/javadolistagem.js"></script>
+  </body>
   <footer>
     <header>
       <nav>
         <div class="line1"></div>
         <ul class="nav-list">
-          <li><a href="#">AMANDA</a></li>
-          <li><a href="#">JOÃO GABRIEL</a></li>
+          <li><a href="ajuda.html">Ajuda</a></li>
+          <li><a href="BugReport.html">Reportar Bug</a></li>
+          <li><a href="Emprego.html">Empregos</a></li>
         </ul>
       </nav>
     </header>
   </footer>
-</body>
 </html>
